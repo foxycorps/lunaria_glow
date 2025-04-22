@@ -26,7 +26,17 @@
     "sideBar.background": "#111111F2",
     "sideBar.foreground": "#eeeee1cc",
     "sideBarTitle.foreground": "#eeeee1cc",
-    "sideBarSectionHeader.foreground": "#eeeee1cc"
+    "sideBarSectionHeader.foreground": "#eeeee1cc",
+    "activityBar.background": "#111111F2",
+    "activityBar.foreground": "#eeeee1cc",
+    "statusBar.background": "#111111F2",
+    "statusBar.foreground": "#eeeee1cc",
+    "panel.background": "#111111",
+    "panel.border": "#222222",
+    "tab.activeBackground": "#1a1a1a",
+    "tab.inactiveBackground": "#111111",
+    "tab.activeForeground": "#eeeee1",
+    "tab.inactiveForeground": "#999999"
   },
   "tokenColors": [
     {
@@ -42,6 +52,22 @@
     },
     {
       "scope": ["entity.other.attribute-name", "meta.attribute", "variable.parameter.attr-name"],
+      "settings": { "foreground": "#6d89ff" }
+    },
+    {
+      "scope": [
+        // JSON / JSONC property keys
+        "meta.structure.dictionary.json string.quoted.double.json",
+        "meta.structure.dictionary.json string.quoted.single.json",
+        "support.type.property-name.json",
+        "support.type.property-name.json.comment",
+        // JavaScript / TypeScript object-literal keys
+        "meta.object-literal.key.js string.quoted.double.js",
+        "meta.object-literal.key.cjs string.quoted.double.js",
+        "meta.object-literal.key.jsx string.quoted.double.jsx",
+        "meta.object-literal.key.ts string.quoted.double.ts",
+        "meta.object-literal.key.tsx string.quoted.double.tsx"
+      ],
       "settings": { "foreground": "#6d89ff" }
     },
     {
