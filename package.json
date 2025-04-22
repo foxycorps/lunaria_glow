@@ -1,0 +1,31 @@
+{
+  "name": "lunaria-glow",
+  "displayName": "Lunaria Glow",
+  "description": "A dark VSCode theme with a soft pastel palette",
+  "version": "0.0.1",
+  "publisher": "foxycorps",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/foxycorps/lunaria_glow.git"
+  },
+  "engines": {
+    "vscode": "^1.74.0"
+  },
+  "categories": ["Themes"],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Lunaria Glow",
+        "uiTheme": "vs-dark",
+        "path": "./themes/lunaria-glow-color-theme.json"
+      }
+    ]
+  },
+  "scripts": {
+    "package": "vsce package",
+    "publish": "vsce publish"
+  },
+  "devDependencies": {
+    "vsce": "^2.10.0"
+  }
+}
